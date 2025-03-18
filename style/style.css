@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  #ramen-menu {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #ramen-menu img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+    border: 5px solid #333; 
+    border-radius: 8px; 
+    padding: 5px; 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  #ramen-menu img:hover {
+    transform: scale(1.1); 
+  }
+  
+  #ramen-detail {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #ramen-detail img {
+    width: 250px;
+    height: auto;
+    border: 5px solid #333;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  #add-ramen-form {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  #add-ramen-form input,
+  #add-ramen-form button {
+    margin: 5px 0;
+  }
+  
+  #ramen-name, #ramen-restaurant, #ramen-rating, #ramen-comment {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
